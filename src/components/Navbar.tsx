@@ -14,7 +14,7 @@ export default function Navbar({activePage}: navProps) {
     }
 
   return (
-    <div className="w-full flex-row lg:flex md:flex items-center justify-between">
+    <div className="w-full justify-center lg:flex md:flex items-center  justify-between">
         <div className="flex items-center">
             <Image alt='logo' src='/roboracers.png' width={100} height={100}/>
             <div className='flex-col'>
@@ -22,7 +22,7 @@ export default function Navbar({activePage}: navProps) {
                 <p>#16481</p>
             </div>
         </div>
-        <div className="border-2 fixed md:right-10 z-10  mx-5 md:text-lg bg-black justify-center text-neutral-700 font-mono border-neutral-800 rounded-xl flex gap-4 px-3 py-2">
+        <div className="border-2 md:fixed md:right-10 z-10 mx-5 md:text-lg bg-black justify-center text-neutral-700 font-mono border-neutral-800 rounded-xl flex gap-4 px-3 py-2">
             <Link href='/' className={classProp("home")}>home</Link>
             <div className='group h-1 w-[54px]'>
                 <Link href='/about' id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" className={classProp("about")}>about</Link>
