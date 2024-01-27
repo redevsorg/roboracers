@@ -13,7 +13,7 @@ export default function Home() {
             <Image src='/ftc.svg' alt='ftc' width={70} height={70}></Image>
             <p className="text-4xl font-light">#16481</p>
           </div>
-          <p className='italic text-2xl pt-5 font-light'>It's about the race, not the finish line.</p>
+          <p className='italic text-2xl pt-5 font-light'>It&apos;s about the race, not the finish line.</p>
         </div>
       </div>
       <div className=" h-screen w-screen w-full -translate-y-[100px] md:-translate-y-[400px] md:translate-x-[400px]">
