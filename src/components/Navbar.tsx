@@ -29,8 +29,7 @@ export default function Navbar({activePage}: navProps) {
                 <div id="dropdownHover" className="z-10 invisible group-hover:visible  rounded-xl shadow w-[120px] border-2 border-neutral-800 bg-black">
                     <ul className="text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
                     <li>
-                        <a href="/team" className="block px-4 rounded-t-lg py-2 text-neutral-700 hover:bg-neutral-800 hover:text-white">the team</a>
-                        <a href="/faq" className="block px-4 py-2 rounded-b-lg text-neutral-700 hover:bg-neutral-800 hover:text-white">faq</a>
+                        <a href="/team" className="block px-4 rounded-lg py-2 text-neutral-700 hover:bg-neutral-800 hover:text-white">the team</a>
                     </li>
                     </ul>
                 </div>
